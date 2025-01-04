@@ -1,0 +1,13 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+# Patch to convert plain text to using localize() function
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = '''play_area_status_text("Not Allowed!")--localize('k_not_allowed_ex'), true)'''
+position = "at"
+payload = '''play_area_status_text(localize('k_not_allowed_ex'))'''
+match_indent = true
