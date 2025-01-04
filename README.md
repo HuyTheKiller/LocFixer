@@ -1,2 +1,5 @@
 # LocFixer
-Un-hardcode Balatro prompts to solidify your translations.
+This QoL mod aims to address all issues regarding non-English translations not getting fully used in Balatro.
+## Current patches:
+* Empty voucher slot text "DEFEAT BOSS BLIND TO RESTOCK"
+* Boss blind ablility action text "Not Allowed!"
