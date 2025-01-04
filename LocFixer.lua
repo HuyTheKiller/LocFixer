@@ -4,7 +4,6 @@
 --- MOD_AUTHOR: [HuyTheKiller, Balatro Discord]
 --- MOD_DESCRIPTION: Addresses all localization issues in vanilla game, ensuring all languages get everywhere.
 --- PRIORITY: 9999999999
---- CONFLICTS: [Vietnamese Balatro]
 --- DISPLAY_NAME: LocFixer
 --- VERSION: 1.0.0
 
