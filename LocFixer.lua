@@ -5,7 +5,7 @@
 --- MOD_DESCRIPTION: Addresses all localization issues in vanilla game, ensuring all languages get everywhere.
 --- PRIORITY: 9999999999
 --- DISPLAY_NAME: LocFixer
---- VERSION: 1.0.0
+--- VERSION: 1.1.0
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
