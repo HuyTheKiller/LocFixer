@@ -1,10 +1,10 @@
 return {
     misc = {
         dictionary = {
-            k_voucher_restock_1 = "",
-            k_voucher_restock_2 = "",
-            k_voucher_restock_3 = "",
-            k_cry_voucher_restock_2 = "",
+            k_voucher_restock_1 = "DERROTA LA",
+            k_voucher_restock_2 = "CIEGA JEFE",
+            k_voucher_restock_3 = "PARA RENOVARSE",
+            k_cry_voucher_restock_2 = "DOS CIEGA JEFES", -- confirm this for me
         }
     }
 }
