@@ -1,0 +1,10 @@
+{
+    "id": "LoFi",
+    "name": "LocFixer",
+    "author": ["HuyTheKiller", "Balatro Discord"],
+    "description": "Addresses all localization issues in vanilla game, ensuring all languages get everywhere.",
+    "prefix": "lf",
+    "main_file": "LocFixer.lua",
+    "priority": 9999999999,
+    "version": "1.2.0"
+}
