@@ -1,0 +1,14 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+# Patch to convert English poker hand text to using localize() function
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = '''handname= self.ability.orbital_hand,'''
+position = "at"
+payload = '''handname = localize(self.ability.orbital_hand, "poker_hands"),'''
+overwrite = true
+match_indent = true

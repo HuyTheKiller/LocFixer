@@ -1,0 +1,23 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+# Patch to convert plain text to using localize() function
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'PEEK', scale = 0.48, colour = G.C.WHITE, shadow = true}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_peek_deck_1'), scale = 0.48, colour = G.C.WHITE, shadow = true}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'DECK', scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_peek_deck_2'), scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+overwrite = true
+match_indent = true
